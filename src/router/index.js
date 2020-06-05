@@ -42,6 +42,8 @@ const chatbot = (r) =>
     require.ensure([], () => r(require("@/page/chatbot")), "chatbot");
 const cloudDisk = (r) =>
     require.ensure([], () => r(require("@/page/cloudDisk")), "cloudDisk");
+const travelSpot = (r) =>
+    require.ensure([], () => r(require("@/page/travelSpot")), "travelSpot");    
 
 const routes = [
     {
@@ -137,6 +139,11 @@ const routes = [
                 path: "/cloudDisk",
                 component: cloudDisk,
                 meta: ["雲端硬碟", "雲端硬碟"],
+            },
+            {
+                path: "/travelSpot",
+                component: travelSpot,
+                meta: ["旅遊景店", "旅遊景點"],
             },
         ],
     },

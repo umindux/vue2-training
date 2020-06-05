@@ -270,3 +270,11 @@ export const clouddisObjectPutobject = (data) =>
         data,
         "POST"
     );
+
+/**
+ * 获取最新旅遊資訊
+ */
+export const getTravelSpots = (data) => fetch(
+    'https://portal-gw.insuremo.com/training_umin_chen/V1/open-api/zh-tw/Attractions/All',
+    data);
+

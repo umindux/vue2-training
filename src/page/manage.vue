@@ -31,6 +31,12 @@
             >
             <el-menu-item index="cloudDisk">雲端硬碟</el-menu-item>
           </el-submenu>
+
+          <el-submenu index="11">
+						<template slot="title"><i class="el-icon-warning"></i>台北旅遊景點</template>
+						<el-menu-item index="travelSpot">台北旅遊景點</el-menu-item>
+					</el-submenu>
+
         </el-menu>
       </el-col>
       <el-col :span="20" style="height: 100%;overflow: auto;">

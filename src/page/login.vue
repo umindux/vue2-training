@@ -48,7 +48,7 @@ export default {
       PATH_TO_BG_IMG,
       fixStyle: "",
       loginForm: {
-        username: "Henry.Chang@ebaotech.com",
+        username: "umin.chen@ebaotech.com",
         password: ""
       },
       rules: {
